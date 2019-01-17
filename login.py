@@ -36,13 +36,13 @@ if a=="2":
    		db.commit()
    		result = cursor.fetchone()
    		print(result)
-	    if result==password:
-			print("Heloo succeess")
+	  #   if result==password:
+			# print("Heloo succeess")
     
 
 
 	except:
    		db.rollback()
   
-	
+# COMMENT GIVE	
 #some comment
